@@ -1,0 +1,36 @@
+h1,
+h2 {
+  font-family: "Satisfy", cursive;
+}
+
+.header {
+  background-color: #8ce6dd;
+}
+
+.contact,
+.aboutMe {
+  text-decoration: underline;
+}
+
+.contact:hover {
+  color: #fff;
+}
+
+.aboutMe:hover {
+  color: #fff;
+}
+
+.tagline {
+  /* font-family: "Marck Script", cursive; */
+  /* font-family: "Satisfy", cursive; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.card-img-top {
+  scale: 0.5rem;
+}
+
+.web_photo {
+  height: 80%;
+  width: 80%;
+}
