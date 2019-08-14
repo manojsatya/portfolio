@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 20px 10px 20px 10px;
+}
+
+header h1,
+.nav_links {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav_links {
+    display: flex;
+  }
+}
