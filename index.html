@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Manoj | Portfolio</title>
 
     <link rel="stylesheet" href="styles_flex.css" />
@@ -17,107 +17,96 @@
     <!-- Container start -->
     <div>
       <!-- Header start-->
-      <header>
-        <h1 class="head">Manoj Satyanarayana</h1>
-
-        <nav>
-          <h2 class="nav_links">Contact</h2>
-          <h2 class="nav_links">About me</h2>
-        </nav>
+      <header class="header">
+        <h1 class="logo">Manoj Satyanarayana</h1>
+        <ul class="main-nav">
+          <li class="nav-links"><a href="#">Contact</a></li>
+          <li class="nav-links"><a href="#">About me</a></li>
+        </ul>
       </header>
       <!-- Header end -->
       <!-- Image and competences start -->
       <div>
-        <div>
-          <!-- <img src="./images/portfolio.JPG" alt="" /> -->
-          <h4>
-            Hello. I'm Manoj. I am a designer and Full Stack developer living in
-            Hamburg, Germany.
-          </h4>
-        </div>
-        <div>
-          <!-- Competencies Start -->
-          <p>
-            Technical skills
-          </p>
-          <div style="width: 7rem; font-size: 1rem;">
-            HTML5
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            CSS3
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Javascript
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Bootstrap4
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            RestAPI
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Jasmine
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            React
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Redux
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            nodeJS
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Frontend
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            MongoDB
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            expressJS
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            C++
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            python
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Machine Learning
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Micro-services
-          </div>
-          <!-- Comptencies End -->
-          <!-- Soft skills start -->
-          <p>
-            Soft skills
-          </p>
-          <div style="width: 7rem; font-size: 1rem;">
-            Motivated
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Technology Oriented
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Energetic
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Team player
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Structured
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Public speaker
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Leader
-          </div>
-          <div style="width: 7rem; font-size: 1rem;">
-            Goal Oriented
-          </div>
-        </div>
+        <section class="pic pic--mod">
+          <article class="pic__tagline">
+            <img src="./images/portfolio.JPG" alt="" class="port__photo" />
+            <p class="tagline">
+              Hello. I'm Manoj. I am a designer and Full Stack developer living
+              in Hamburg, Germany.
+            </p>
+          </article>
+
+          <article class="skills--block skills--mod">
+            <!-- Competencies Start -->
+            <p class="skill__heading">
+              Technical skills
+            </p>
+            <!-- <div class="skill__list">
+              <div class="tech__skills">HTML5</div>
+              <div class="tech__skills">CSS3</div>
+              <div class="tech__skills">Javascript</div>
+              <div class="tech__skills">Bootstrap4</div>
+              <div class="tech__skills">C++</div>
+              <div class="tech__skills">Python</div>
+              <div class="tech__skills">Jasmine</div>
+              <div class="tech__skills">React</div>
+              <div class="tech__skills">Javascript</div>
+              <div class="tech__skills">Javascript</div>
+              <div class="tech__skills">Javascript</div>
+              <div class="tech__skills">Javascript</div>
+              <div class="tech__skills">Javascript</div>
+              <div class="tech__skills">c++</div>
+              <div class="tech__skills">c++</div>
+            </div> -->
+            <ul class="skill__list skills__list__mod">
+              <li class="tech__skills">HTML5</li>
+              <li class="tech__skills">CSS3</li>
+              <li class="tech__skills">Javascript</li>
+              <li class="tech__skills">Bootstrap4</li>
+              <li class="tech__skills">RestAPI</li>
+              <li class="tech__skills">Jasmine</li>
+              <li class="tech__skills">React</li>
+              <li class="tech__skills">Redux</li>
+              <li class="tech__skills">node.js</li>
+              <li class="tech__skills">Frontend</li>
+              <li class="tech__skills">MongoDB</li>
+              <li class="tech__skills">expressJS</li>
+              <li class="tech__skills">C++</li>
+              <li class="tech__skills">Python</li>
+              <li class="tech__skills">Machine Learning</li>
+              <li class="tech__skills">Micro-services</li>
+            </ul>
+            <!-- Comptencies End -->
+            <!-- Soft skills start -->
+            <p>
+              Soft skills
+            </p>
+            <div style="width: 7rem; font-size: 1rem;">
+              Motivated
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Technology Oriented
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Energetic
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Team player
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Structured
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Public speaker
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Leader
+            </div>
+            <div style="width: 7rem; font-size: 1rem;">
+              Goal Oriented
+            </div>
+          </article>
+        </section>
         <!-- soft skills end -->
       </div>
       <!-- Image and competencies end -->
@@ -133,7 +122,7 @@
       <!-- Contact details end -->
       <!-- Web profiles start -->
       <div>
-        <div>
+        <!-- <div>
           <img src="./images/github-1.svg" alt="" />
           <a href="https://github.com/manojsatya" target="_blank">Github</a>
         </div>
@@ -146,7 +135,7 @@
           <a href="https://de.linkedin.com/in/manojsatya" target="_blank"
             >LinkedIn</a
           >
-        </div>
+        </div> -->
       </div>
       <!-- Web profiles end -->
       <!-- Brief and Education Start -->

@@ -1,22 +1,140 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
-header {
-  margin: 20px 10px 20px 10px;
+.head {
+  margin: 20px;
+}
+.navbar__mod,
+.myname {
+  display: block;
+}
+.navbar li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-header h1,
-.nav_links {
+.navbar li a {
+  font-size: 1.3rem;
+  padding: 1rem;
   display: block;
 }
 
 @media (min-width: 768px) {
-  header {
+  .head {
     display: flex;
     justify-content: space-between;
   }
-  .nav_links {
+  .navbar {
     display: flex;
+  }
+} */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 4%;
+  min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.logo a,
+.main-nav a {
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: 0.99em;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 10px;
+  border: 1px solid #a2a2a2;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 0.7rem;
+}
+
+.nav-links {
+  display: inline;
+}
+
+.port__photo,
+.tagline {
+  display: block;
+  width: 90vw;
+  margin: 10px auto;
+  border-radius: 0.7rem;
+}
+
+.tagline {
+  background-color: beige;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.tech__skills {
+  display: inline;
+  background-color: green;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  padding: 0.3em;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 25%;
+}
+
+.skills--block {
+  margin: 0.2rem;
+}
+
+.skill__heading {
+  background-color: lightgray;
+  padding: 0.1rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 750px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
