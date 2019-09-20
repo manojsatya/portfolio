@@ -5,118 +5,217 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Manoj | Portfolio</title>
-    <link rel="stylesheet" href="styles_flex.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Marck+Script|Satisfy&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+    />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <!-- Container start -->
-    <div>
+    <div class="container mt-3">
       <!-- Header start-->
-      <div>
-        <div>
+      <div class="row header rounded-left rounded-lg">
+        <div class="col col-12 col-md-8 p-3 col-sm-12 ">
           <h1>Manoj Satyanarayana</h1>
         </div>
-        <div>
-          <h2>Contact</h2>
+        <div class="col col-6 col-md-2 p-3 col-sm-6">
+          <h2 class="contact">Contact</h2>
         </div>
-        <div>
-          <h2>About me</h2>
+        <div class="col col-6 col-md-2 p-3 col-sm-6">
+          <h2 class="aboutMe">About me</h2>
         </div>
       </div>
       <!-- Header end -->
       <!-- Image and competences start -->
-      <div>
-        <div>
-          <img src="./images/portfolio.JPG" alt="Responsive image" />
-          <h4>
+      <div class="row">
+        <div class="col-xl-4 col-lg-12 mt-5">
+          <img
+            src="./images/portfolio.JPG"
+            class="img-fluid rounded"
+            alt="Responsive image"
+          />
+          <h4 class="tagline">
             Hello. I'm Manoj. I am a designer and Full Stack developer living in
             Hamburg, Germany.
           </h4>
         </div>
-        <div>
+        <div class="col-xl-8 col-lg-12 rounded mt-3">
           <!-- Competencies Start -->
-          <p>
+          <p class="mt-5 font-weight-bold bg-light h5 rounded">
             Technical skills
           </p>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             HTML5
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             CSS3
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Javascript
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Bootstrap4
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             RestAPI
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Jasmine
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             React
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Redux
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             nodeJS
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Frontend
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             MongoDB
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             expressJS
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             C++
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             python
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Machine Learning
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-success text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Micro-services
           </div>
           <!-- Comptencies End -->
           <!-- Soft skills start -->
-          <p>
+          <p class="m-1 font-weight-bold  h5 bg-light rounded">
             Soft skills
           </p>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Motivated
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Technology Oriented
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Energetic
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Team player
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Structured
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Public speaker
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Leader
           </div>
-          <div style="width: 7rem; font-size: 1rem;">
+          <div
+            class="badge badge-primary text-wrap m-2 p-1"
+            style="width: 7rem; font-size: 1rem;"
+          >
             Goal Oriented
           </div>
         </div>
@@ -124,36 +223,67 @@
       </div>
       <!-- Image and competencies end -->
       <!-- Contact details start -->
-      <div>
-        <div>
-          <p><i></i>+49 12344-23132</p>
+      <div class="row">
+        <div
+          class="col-xl-6 col-lg-6 col-md-12 col-sm-12 shadow-lg p-2 mt-5 bg-warning rounded-pill"
+        >
+          <p class="h3 text-center">
+            <i class="fas fa-phone-square-alt"></i>+49 12344-23132
+          </p>
         </div>
-        <div>
-          <p><i></i> manoj.pesit@gmail.com</p>
+        <div
+          class="col-xl-6 col-lg-6 col-md-12 col-sm-12 shadow-lg p-2 mt-5 bg-warning rounded-pill"
+        >
+          <p class="h3 text-center">
+            <i class="far fa-envelope"></i> manoj.pesit@gmail.com
+          </p>
         </div>
       </div>
       <!-- Contact details end -->
       <!-- Web profiles start -->
-      <div>
-        <div>
-          <img src="./images/github-1.svg" alt="" />
-          <a href="https://github.com/manojsatya" target="_blank">Github</a>
+      <div class="row mt-5">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 text-center">
+          <img src="./images/github-1.svg" alt="" class="img-fluid web_photo" />
+          <a
+            href="https://github.com/manojsatya"
+            class="btn btn-primary m-3"
+            target="_blank"
+            >Github</a
+          >
         </div>
-        <div>
-          <img src="./images/codepen-icon.svg" alt="" />
-          <a href="https://codepen.io/manu_js" target="_blank">Codepen</a>
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 text-center">
+          <img
+            src="./images/codepen-icon.svg"
+            alt=""
+            class="img-fluid web_photo"
+          />
+          <a
+            href="https://codepen.io/manu_js"
+            class="btn btn-primary m-3"
+            target="_blank"
+            >Codepen</a
+          >
         </div>
-        <div>
-          <img src="./images/linkedin-icon.svg" alt="" />
-          <a href="https://de.linkedin.com/in/manojsatya" target="_blank"
+        <div class="col-xl-4  col-lg-4 col-md-12 col-sm-12 text-center">
+          <img
+            src="./images/linkedin-icon.svg"
+            alt=""
+            class="img-fluid web_photo"
+          />
+          <a
+            href="https://de.linkedin.com/in/manojsatya"
+            class="btn btn-primary m-3"
+            target="_blank"
             >LinkedIn</a
           >
         </div>
       </div>
       <!-- Web profiles end -->
       <!-- Brief and Education Start -->
-      <div>
-        <div>
+      <div class="row mt-5">
+        <div
+          class="col-xl-6  col-lg-6 col-md-12 col-sm-12 justify-content mt-4"
+        >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita,
           distinctio. In accusantium est laudantium soluta possimus. Dolore,
           reiciendis veniam necessitatibus illo rem delectus repudiandae,
@@ -163,9 +293,9 @@
           consectetur adipisicing elit. Distinctio fugiat repellendus placeat
           quasi molestiae. Quaerat eaque doloribus neque dolore rerum.
         </div>
-        <div>
-          <p>Education</p>
-          <table>
+        <div class="col-xl-6  col-lg-6 col-md-12 col-sm-12 mt-3">
+          <p class="m-1 font-weight-bold bg-light rounded">Education</p>
+          <table class="table">
             <tbody>
               <tr>
                 <th scope="row">2019</th>
@@ -194,8 +324,8 @@
       </div>
       <!-- Brief and Education End -->
       <!-- Footer -->
-      <div>
-        <div>
+      <div class="row bg-danger rounded mt-5 mb-3 p-3">
+        <div class="col text-center">
           <p>Copyright &copy; 2019 Manoj Satyanarayana</p>
         </div>
       </div>
